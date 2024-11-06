@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.masthead {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.masthead h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.masthead p {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+
+.page-section {
+    padding: 60px 0;
+}
+
+.page-section.bg-light {
+    background-color: #f8f9fa;
+}
+
+.page-section.bg-dark {
+    background-color: #343a40;
+}
+
+
+.service-item {
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item i {
+    font-size: 4rem;
+    color: #007bff;
+}
+
+.service-item h4 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+
+.footer {
+    background-color: #343a40;
+    color: #bbb;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media (max-width: 767px) {
+    .masthead h1 {
+        font-size: 2.5rem;
+    }
+
+    .masthead p {
+        font-size: 1rem;
+    }
+
+    .service-item {
+        padding: 20px;
+    }
+
+    .service-item h4 {
+        font-size: 1.25rem;
+    }
+
+   
+    .containerapps img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+.containerapps {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px; 
+}
+
+.containerapps img {
+    max-width: 100%;
+    height: auto; 
+    object-fit: contain;
+}
+
+
+.row {
+    margin-top: 60px; 
+}
+
+.image-resize {
+    width: 10%;
+    max-width: 100px; 
+    height: auto;
+}
+.container1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.divtexto{
+        font-size: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1vw;
+
+    }
+
+
+
+    & img{
+        width: 8vw;
+        height: 8vw;
+    }
+}
